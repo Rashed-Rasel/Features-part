@@ -1,0 +1,529 @@
+/* ============================ */
+/* =======common css start========== */
+/* =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bannar_color: #1c1e53;
+  --fontstyle: "Poppins", sans-serif;
+  --whitecolor: #fff;
+  --textcolor: #282938;
+  --Yellow: #fcd980;
+  --fontmanrope: "Manrope", sans-serif;
+  --Royal-Blue: #2405f2;
+}
+
+/* ============================ */
+/* =====common css End========== */
+/* =========================== */
+
+/* ============================ */
+/* =====nevbar css start========== */
+/* =========================== */
+#nevbar {
+  background: var(--bannar_color);
+}
+#nevbar .navbar-toggler {
+  color: var(--whitecolor);
+}
+#nevbar .fa-bars {
+  color: var(--whitecolor);
+}
+#nevbar ul li a {
+  color: #bbbbcb;
+  font-family: var(--fontstyle);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#nevbar ul li a:hover {
+  color: var(--Yellow);
+}
+#nevbar .btn button {
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: transparent;
+  margin-left: 30px;
+  transition: all linear 0.3s;
+}
+#nevbar .btn button:hover {
+  background-color: var(--Yellow);
+}
+#nevbar .btn button a {
+  color: var(--whitecolor, #fff);
+  font-family: var(--fontstyle);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.3s;
+}
+#nevbar .btn button a:hover {
+  color: var(--textcolor);
+}
+
+/* ============================ */
+/* =====nevber css end========== */
+/* =========================== */
+
+/* ============================ */
+/* =====banner css start========== */
+/* =========================== */
+#banner {
+  background: var(--bannar_color);
+  padding: 128px 0;
+}
+#banner .banner_left h1 {
+  color: var(--whitecolor, #fff);
+  font-family: var(--fontstyle);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 32px;
+}
+#banner .banner_left p {
+  color: var(--whitecolor, #fff);
+  font-family: var(--fontstyle);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 32px;
+  opacity: 0.7;
+}
+#banner .banner_left .btn button {
+  padding: 16px 48px;
+  border-radius: 41px;
+  background: var(--Yellow, #fcd980);
+  transition: all linear 0.3s;
+}
+#banner .banner_left .btn button:hover {
+  background: var(--whitecolor);
+}
+#banner .banner_left .btn button a {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontmanrope);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+/* ============================ */
+/* =====banner css end========== */
+/* =========================== */
+
+/* ============================ */
+/* =====user css start========== */
+/* =========================== */
+#user {
+  padding: 96px 0;
+}
+#user .benefits_icon h2 {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#user .benefits_icon p {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ============================ */
+/* =====user css end========== */
+/* =========================== */
+
+/* ============================ */
+/* =====benefits css start====== */
+/* =========================== */
+#benefits {
+  padding-bottom: 128px;
+}
+#benefits .benefits_text {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#benefits .benefits_box {
+  height: 316px;
+  max-height: 316px;
+  padding: 50px 32px 0 48px;
+  background: #f4f6fc;
+  transition: all linear 0.3s;
+}
+#benefits .benefits_box:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#benefits .benefits_box h4 {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#benefits .benefits_box p {
+  color: var(--textcolor, #282938);
+  font-family: var(--textcolor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ============================ */
+/* =====benefits css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====client css start====== */
+/* =========================== */
+#client {
+  padding-bottom: 128px;
+}
+#client .client_left h6 {
+  color: #000;
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+}
+#client .client_left h2 {
+  color: #232536;
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#client .client_left p {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
+#client picture img {
+  transition: all linear 0.3s;
+}
+
+#client picture img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* ============================ */
+/* =====client css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====maintanace css start====== */
+/* =========================== */
+#maintenace {
+  background: #f4f6fc;
+  padding: 128px 0;
+}
+#maintenace picture img {
+  transition: all linear 0.3s;
+}
+#maintenace picture img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#maintenace .maintenace_right h6 {
+  color: #000;
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#maintenace .maintenace_right h2 {
+  color: #232536;
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#maintenace .maintenace_right p {
+  color: #232536;
+  font-family: var(--fontmanrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
+/* ============================ */
+/* =====maintanace css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====support css start====== */
+/* =========================== */
+#support {
+  padding: 128px 0;
+}
+#support .support_left h6 {
+  color: #000;
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#support .support_left h2 {
+  color: #232536;
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#support .support_left p {
+  color: #232536;
+  font-family: var(--fontmanrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
+#support picture img {
+  transition: all linear 0.3s;
+}
+#support picture img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* ============================ */
+/* =====support css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====delivery css end====== */
+/* =========================== */
+#delivery {
+  padding: 128px 0;
+  background: rgba(252, 217, 128, 0.1);
+}
+#delivery picture img {
+  transition: all linear 0.3s;
+}
+
+#delivery picture img:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#delivery .delivery_right h6 {
+  color: #000;
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#delivery .delivery_right h2 {
+  color: #232536;
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#delivery .delivery_right p {
+  color: #232536;
+  font-family: var(--fontmanrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
+
+/* ============================ */
+/* =====delivery css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====question css start====== */
+/* =========================== */
+#question {
+  padding: 128px 0;
+}
+#question .question_left h2 {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#question .question_left a {
+  color: var(--Royal-Blue, #2405f2);
+  font-family: var(--fontstyle);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  transition: all linear 0.3s;
+}
+#question .question_left a:hover {
+  color: var(--textcolor);
+}
+#question .question_right button span {
+  color: var(--Royal-Blue, #2405f2);
+  text-align: center;
+  font-family: var(--fontstyle);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#question .question_right button h4 {
+  color: var(--textcolor, #282938);
+  font-family: var(--fontstyle);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-left: 59px;
+}
+#question .accordion-item .accordion-body {
+  color: var(--textcolor, #282938);
+  font-family: var(--textcolor);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+  margin-left: 75px;
+}
+
+/* ============================ */
+/* =====question css end====== */
+/* =========================== */
+
+/* ============================ */
+/* =====footer css start======= */
+/* =========================== */
+#footer {
+  background-color: var(--bannar_color);
+}
+#footer .footer-left {
+  margin-top: 100px;
+}
+#footer .footer-left p {
+  color: var(--whitecolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-top: 22px;
+  margin-bottom: 86px;
+}
+#footer .footer-left .footer-left-last {
+  width: 517px;
+  height: 95px;
+  background: var(--Yellow);
+}
+#footer .footer-left .footer-left-last .text {
+  padding-top: 24px;
+  padding-left: 37px;
+}
+#footer .footer-left .footer-left-last .text h3 {
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#footer .footer-left .footer-left-last .text a {
+  color: var(--textcolor);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#footer .footer-right {
+  margin-top: 100px;
+}
+#footer .footer-right h1 {
+  color: var(--whitecolor);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 14px;
+}
+#footer .footer-right p {
+  color: #f4f6fc;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 28px;
+}
+#footer .footer-right .icon a {
+  padding-right: 20px;
+  color: var(--whitecolor);
+}
+#footer .footer-right .icon a:hover {
+  transform: translateY(-15%);
+  color: #fcd980;
+}
+
+/* ============================ */
+/* =====footer css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====footer navbar css start======= */
+/* =========================== */
+#footer-nevbar p {
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#footer-nevbar ul li {
+  padding-left: 10px;
+}
+#footer-nevbar ul li a {
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#footer-nevbar ul li a:hover {
+  background-color: var(--Yellow);
+}
+
+/* ============================ */
+/* ===footer navbar css end===== */
+/* =========================== */
